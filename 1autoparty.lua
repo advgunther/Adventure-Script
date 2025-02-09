@@ -1,7 +1,4 @@
--- Original made by Lee#7225
--- https://trainorcreations.com/coding/otclient/27
-
-UI.Separator()
+setDefaultTab("Main")
 
 local panelName = "autoParty"
 local ui = setupUI([[
@@ -335,4 +332,4 @@ if rootWidget then
   end)
 end
 
-UI.Separator()
+addSeparator()
